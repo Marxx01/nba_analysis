@@ -1,0 +1,128 @@
+body {
+    background: #BBD9EE;
+    font-family: tahoma,verdana,arial,sans-serif;
+    font-size: 12px;
+    
+}
+
+h1{
+    font-family: candara;
+    font-size: 3em;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card-img-top {
+    width: 300%;
+    height: 400px;
+    object-fit: cover;
+}
+
+h3{
+    text-align: center;
+}
+
+#menu {
+    padding-top: 0;
+    margin-top: 0;
+    float: left;
+    
+    width: 100%;
+    border-bottom: solid 1px black;
+    background: #BBD9EE;
+}
+
+ul#listaDeEnlaces, ul#listaDeEnlaces li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul#listaDeEnlaces {
+    margin-left:50px;
+    width:650px;
+}
+
+ul#listaDeEnlaces li {
+    float:left;
+    margin-right: 3px;
+    text-align: center;
+}
+
+ul#listaDeEnlaces li a {
+    float:left;
+    width: 7em;
+    padding: 5px 0;
+    background: #E7F1F8;
+    text-decoration:none;
+    color: #666;
+    border-top: solid 1px black;
+    border-right: solid 1px black;
+    border-left: solid 1px black;
+}
+
+ul#listaDeEnlaces a:hover {
+    background: #0066FF;
+    color: #FFF;
+    font-weight: bold;
+}
+
+ul#listaDeEnlaces li.paginaActual {
+    float:left;
+    width: 7em;
+    padding: 5px 0;
+    background: #CCC;
+    color: #003;
+    font-weight: bold;
+    border-top: solid 1px black;
+    border-right: solid 1px black;
+    border-left: solid 1px black
+}
+
+body {
+    background-color: lightblue;
+  }
+
+.imagen-card {
+    width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: 200px; /* Establece la altura deseada para todas las imágenes */
+    object-fit: cover; /* Ajusta la imagen al tamaño del contenedor sin deformarla */
+}
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+#listaDeEnlaces li:hover .submenu {
+    display: block;
+}
+
+.submenu li {
+    margin: 0;
+}
+
+.submenu a {
+    display: block;
+    padding: 8px 12px;
+    color: #333;
+    text-decoration: none;
+}
+
+.submenu a:hover {
+    background-color: #ccc;
+}
+
+  
+
