@@ -1,4 +1,4 @@
-# nba_analysis
+# NBA Analysis
 In this project we seek to conduct a statistical study of the NBA, from its beginnings in 1940 to the present, we seek to show the evolution and how the trends of the game, teams and players have been adapting over time.   
 
 The main objective of this study is to analyze the league in general, from the competitiveness of the different seasons and establish correlations between the individual awards given to players and their statistical performance, such as performing a principal component analysis or PCA to reduce the number of variables and finally a predictive model for the MVP.  
